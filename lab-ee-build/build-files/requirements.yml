@@ -1,0 +1,21 @@
+---
+collections:
+  - name: redhat.rhel_system_roles
+  - name: redhat.insights  
+  - name: community.general                               
+  - name: ansible.posix
+  - name: ansible.utils
+  - name: ansible.controller
+  - name: redhat.openshift
+    version: 2.1.0
+  - name: redhat.rhel_idm
+  - name: redhat.satellite
+  - name: community.kubevirt
+  - name: community.kubernetes
+  - name: kubernetes.core
+  - name: community.libvirt
+  - name: cloud.common
+  - name: pfsensible.core
+  - name: dumont.kvm_guest
+#    version: 0.0.12
+      

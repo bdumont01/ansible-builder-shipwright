@@ -1,0 +1,7 @@
+#required for libvirt inventory plugin
+pkg-config
+libvirt-devel
+gcc
+python39-devel
+
+

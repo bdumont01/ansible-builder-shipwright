@@ -1,14 +1,14 @@
 apiVersion: shipwright.io/v1alpha1
 kind: Build
 metadata:
-  name: ansible-builder-example
+  name: ansible-builder-lab-ee
 spec:
   source:
-    url: https://github.com/sabre1041/ansible-builder-shipwright
-    contextDir: example-builder
+    url: https://github.com/bdumont01/ansible-builder-shipwright/lab-ee-build
+    contextDir: build-files
     revision: main
   output:
-    image: image-registry.openshift-image-registry.svc:5000/ansible-builder-shipwright/ansible-builder-shipwright-example-ee:latest
+    image: image-registry.openshift-image-registry.svc:5000/ansible-builder-shipwright/lab-ee:latest
   strategy:
     name: ansible-builder
     kind: ClusterBuildStrategy

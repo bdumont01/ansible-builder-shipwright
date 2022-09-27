@@ -1,0 +1,14 @@
+apiVersion: shipwright.io/v1alpha1
+kind: Build
+metadata:
+  name: ansible-builder-aws-ee
+spec:
+  source:
+    url: https://github.com/bdumont01/ansible-builder-shipwright
+    contextDir: aws-ee-build
+    revision: main
+  output:
+    image: image-registry.openshift-image-registry.svc:5000/ansible-builder-shipwright/aws-ee:latest
+  strategy:
+    name: ansible-builder
+    kind: ClusterBuildStrategy

@@ -2,6 +2,6 @@
 pkg-config
 libvirt-devel
 gcc
-python39-devel
+python38-devel
 
 

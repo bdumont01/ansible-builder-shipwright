@@ -2,4 +2,5 @@ jmespath
 ansible-pylibssh
 #kubernetes
 openshift
-libvirt-python
+#libvirt-python
+kubernetes-validate

@@ -1,0 +1,9 @@
+apiVersion: shipwright.io/v1alpha1
+kind: BuildRun
+metadata:
+  generateName: ansible-builder-kubevirt-ee-
+spec:
+  buildRef:
+    name: ansible-builder-kubevirt-ee
+  serviceAccount:
+    name: ansible-builder-shipwright

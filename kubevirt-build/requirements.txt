@@ -1,0 +1,7 @@
+jmespath
+ansible-pylibssh
+#kubernetes
+openshift
+#libvirt-python
+#kubernetes-validate
+

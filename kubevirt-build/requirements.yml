@@ -1,6 +1,8 @@
 ---
 collections:
-#  - name: redhat.openshift
+  - name: redhat.openshift
 #    version: 2.1.0
   - name: community.kubevirt
-      
+  - name: community.kubernetes
+    version: 1.2.1
+  - name: kubernetes.core

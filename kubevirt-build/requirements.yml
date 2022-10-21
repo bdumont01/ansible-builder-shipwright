@@ -5,3 +5,4 @@ collections:
     type: git
     version: main
   - name: redhat.openshift
+    version: 2.1.0

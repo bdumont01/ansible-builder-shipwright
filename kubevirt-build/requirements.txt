@@ -2,5 +2,5 @@ jmespath
 ansible-pylibssh
 kubernetes
 requests
-openshift
+#openshift
 

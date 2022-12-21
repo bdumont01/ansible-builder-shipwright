@@ -1,0 +1,15 @@
+jmespath
+ansible-pylibssh
+#kubernetes
+openshift
+paramiko==2.8.1
+requests==2.27.1 
+yamllint==1.26.3 
+boto3==1.20.49 
+boto==2.49.0 
+awscli==1.22.49 
+netaddr==0.8.0 
+passlib==1.7.4 
+tox==3.22.0
+pywinrm==0.4.2
+requests-credssp==1.2.0

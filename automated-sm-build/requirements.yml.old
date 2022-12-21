@@ -1,0 +1,26 @@
+---
+collections:
+  - name: redhat.rhel_system_roles
+  - name: redhat.insights  
+  - name: community.general                               
+  - name: ansible.posix
+#  - name: ansible.tower
+  - name: ansible.utils
+  - name: ansible.controller
+#  - name: jjaswanson4.configure_satellite
+#  - name: theforeman.foreman
+  - name: redhat.openshift
+    version: 2.1.0
+  - name: redhat.rhel_idm
+  - name: redhat.satellite
+#  - name: community.kubevirt
+  - name: community.kubernetes
+  - name: kubernetes.core
+#  - name: community.libvirt
+  - name: cloud.common
+  - name: amazon.aws
+  - name: community.aws
+    version: 4.0.0
+  - name: pfsensible.core
+#  - name: dumont.kvm_guest
+      

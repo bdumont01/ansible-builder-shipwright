@@ -5,7 +5,7 @@ metadata:
 spec:
   source:
     url: https://github.com/bdumont01/ansible-builder-shipwright
-    contextDir: automated-sm-ee
+    contextDir: automated-sm-build
     revision: main
   output:
     image: image-registry.openshift-image-registry.svc:5000/ansible-builder-shipwright/automated-sm-ee:latest

@@ -12,3 +12,4 @@ collections:
   - name: ansible.posix
   - name: kubernetes.core
   - name: redhat.openshift
+    version: 2.1.0

@@ -1,6 +1,6 @@
 jmespath
 ansible-pylibssh
-#kubernetes
+kubernetes
 openshift
 paramiko==2.8.1
 requests==2.27.1 

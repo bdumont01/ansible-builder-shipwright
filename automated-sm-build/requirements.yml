@@ -6,4 +6,9 @@ collections:
   - name: community.general
   - name: awx.awx
   - name: community.mysql
-     
+  - name: redhat_cop.tower_utilities
+  - name: redhat_cop.controller_configuration
+  - name: community.crypto
+  - name: ansible.posix
+  - name: kubernetes.core
+  - name: redhat.openshift

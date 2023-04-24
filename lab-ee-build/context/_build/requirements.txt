@@ -4,4 +4,3 @@ ansible-pylibssh
 openshift
 #libvirt-python
 kubernetes-validate
-libnmstate

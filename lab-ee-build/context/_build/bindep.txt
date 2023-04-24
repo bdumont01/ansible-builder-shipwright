@@ -1,0 +1,8 @@
+#required for libvirt inventory plugin
+#disabled libvirt plugin for shipwright
+#pkg-config
+#libvirt-devel
+#gcc
+#python38-devel
+
+

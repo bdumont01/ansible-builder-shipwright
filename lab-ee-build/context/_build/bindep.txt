@@ -4,5 +4,6 @@
 #libvirt-devel
 #gcc
 #python38-devel
+nmstate [package:rpm]
 
 

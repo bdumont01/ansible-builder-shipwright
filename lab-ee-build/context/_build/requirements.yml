@@ -13,10 +13,9 @@ collections:
   - name: community.kubevirt
   - name: community.kubernetes
   - name: kubernetes.core
-#  - name: community.libvirt
-#    source: https://aap-hub.dumont-lab.lan
+  - name: community.libvirt
   - name: cloud.common
+  - name: containers.podman
 #  - name: pfsensible.core
   - name: dumont.kvm_guest
-#    version: 0.0.12
       
